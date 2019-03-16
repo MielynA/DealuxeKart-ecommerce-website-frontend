@@ -1,49 +1,43 @@
-import React from 'react'; 
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 import '../styles/navbar.css';
 
 const NavBar = props => {
-   return (
-    <React.Fragment>
-    <nav className = 'navbar navbar-default navbar-fixed-top'>
-     <div className = 'container-fluid'>
-      <div className = 'navbar-header'>
-       <button type = 'button' className = 'navbar-toggle' data-toggle =' collapse' data-target = '#navbar'>
-         {/* <span className='icon-bar'></span>
-         <span className='icon-bar'></span>
-         <span className='icon-bar'></span>  */}
-       </button>
-      <a className='navbar-brand ' href='/'><img src={require('../images/dealuxeKart.png')} alt=''></img></a>
-    </div>
-    <div className = 'collapse navbar-collapse ' id = 'burgermenu'>
-    <ul className='nav navbar-nav navbar-right'>
-        <li><a href='#home'>HOME</a></li>
-        <li><a href='#band'>BUYER</a></li>
-        <li><a href='#tour'>SELLER</a></li>
-        <li><a href='#contact'>ORDERS</a></li>
-        <li><a href ='#cart'>CART</a></li>
-        <li className='dropdown'>
-          <a className='dropdown-toggle' data-toggle='dropdown' href='/'>MORE
-            <span className='caret'></span>
-          </a>
-          <ul className='dropdown-menu'>
-            <li><a href='#'>Best Sellers</a></li>
-            <li><a href='#'>Category</a></li>
-            <li><a href='#'>Choose By Colors</a></li> 
-          </ul>
-        </li>
-        <li><a href='#'><span className='glyphicon glyphicon-search'></span></a></li>
-      </ul>
-    </div>
-    </div>
-    </nav>
-    </React.Fragment>
-   );
-
-
+    return (
+        <React.Fragment>
+            <nav className='navbar  navbar-expand-xl fixed-top'>
+                <div className='container-fluid'>
+                    <li className='nav-item dropdown'>
+                        <a className='nav-link dropdown-toggle' href='/' id='navbarDropdownMenuLink' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                            SHOP BY CATEGORY </a>
+                        <div className='dropdown-menu' aria-labelledby='navbarDropdownMenuLink'>
+                            <a className='dropdown-item' href='#'>MEN</a>
+                            <a className='dropdown-item' href='#'>WOMEN</a>
+                            <a className='dropdown-item' href='#'>VIEW ALL</a>
+                        </div>
+                    </li>
+                    <a className='navbar-brand  ' href='/'>
+                        <img src={require('../images/dealuxeKart.png')} alt='' className='d-inline-block align-top' />
+                    </a>
+                    <ul className='navbar-nav  '>
+                        <li className='nav-item active'>
+                            <a className='nav-link' href='/'>Home <span className='sr-only'>(current)</span></a>
+                        </li>
+                        <li className='nav-item'>
+                            <a className='nav-link' href='#'>Buyer</a>
+                        </li>
+                        <li className='nav-item'>
+                            <a className='nav-link' href='#'>Seller</a>
+                        </li>
+                        <li className='nav-item'>
+                            <a className='nav-link' href='#'>Orders</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </React.Fragment>
+    );
 }
 
-
-
-export default NavBar ; 
+export default NavBar; 

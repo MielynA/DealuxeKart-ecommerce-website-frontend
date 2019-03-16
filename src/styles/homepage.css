@@ -2,13 +2,13 @@
     padding: 80px 120px;
   }
   
-  .bestseller {
+.bestseller {
   border-radius: 50%;
   border: 10px solid transparent;
   margin-bottom: 25px;
   width: 25%;
-  height: 40%;
-  /* opacity: 1; */
+  height: 50%;
+  opacity: 5;
 
 }
 
@@ -31,4 +31,16 @@
     .carousel-caption {
       display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
+  }
+
+  .category {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 20%;
+    height: 75%;
+    opacity: 2;
+  
+  }
+  .category:hover{
+     border-color: #f1f1f1;
   }
