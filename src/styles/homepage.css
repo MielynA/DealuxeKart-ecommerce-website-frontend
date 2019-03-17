@@ -13,13 +13,13 @@
 }
 
 .bestseller:hover {
-    border-color: #f1f1f1;
+    border-color: #e0dede;
 }
 
 .carousel-inner img {
-    -webkit-filter: grayscale(50%);
-    filter: grayscale(60%); /* make all photos black and white */ 
-    width: 50%; /* Set width to 100% */
+    -webkit-filter: grayscale(40%);
+    filter: grayscale(40%); /* make all photos black and white */ 
+    width: 40%; /* Set width to 100% */
     margin: auto;
   }
   
@@ -39,8 +39,10 @@
     width: 20%;
     height: 75%;
     opacity: 2;
+    border-radius: 5px;
   
   }
   .category:hover{
-     border-color: #f1f1f1;
+     border-color: #e0dede;
+    
   }

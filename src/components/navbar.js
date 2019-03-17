@@ -33,7 +33,12 @@ const NavBar = props => {
                         <li className='nav-item'>
                             <a className='nav-link' href='#'>Orders</a>
                         </li>
+                        
+                        <button type="button" class="btn btn-default btn-lg">
+                          <span class="glyphicon glyphicon-shopping-cart"></span></button>
+                          
                     </ul>
+                    
                 </div>
             </nav>
         </React.Fragment>

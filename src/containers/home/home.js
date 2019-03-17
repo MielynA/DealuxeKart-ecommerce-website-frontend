@@ -27,33 +27,33 @@ class Home extends React.Component {
 
                     <div className='carousel-inner' role='listbox'>
                         <div className='item active'>
-                            <img src={require('../../images/chainwallet.jpg')} alt=''></img>
+                            <img src={require('../../images/doublehandletote.jpg')} alt=''></img>
                             <div className='carousel-caption'>
-                                <h3>Chain Wallet</h3>
-                                <p>The atmosphere in New York is lorem ipsum.</p>
+                                <h3>Tote</h3>
+                                <p>TAppropriate for the office, but also for a fun day out with the girls.</p>
                             </div>
                         </div>
 
                         <div className='item'>
-                            <img src={require('../../images/handletote.jpg')} alt=''></img>
+                            <img src={require('../../images/trapezoidtophandle.jpg')} alt=''></img>
                             <div className='carousel-caption'>
                                 <h3>Handle tote bag</h3>
-                                <p>Thank you, Chicago - A night we won't forget.</p>
+                                <p>Appropriate for the office, but also for a fun day out with the girls.</p>
                             </div>
                         </div>
 
                         <div className='item'>
-                            <img src={require('../../images/totebagpink.jpg')} alt=''></img>
+                            <img src={require('../../images/lasercut.jpg')} alt=''></img>
                             <div className='carousel-caption'>
-                                <h3>Tote Bag Pink</h3>
-                                <p>Even though the traffic was a mess, we had the best time.</p>
+                                <h3>Laser cut Hand Bag</h3>
+                                <p>Appropriate for the office, but also for a fun day out with the girls</p>
                             </div>
                         </div>
                         <div className='item'>
-                            <img src={require('../../images/transulucentdrawstring(pink).jpg')} alt=''></img>
+                            <img src={require('../../images/whipstitchtote.jpg')} alt=''></img>
                             <div className='carousel-caption'>
-                                <h3>Card Holder</h3>
-                                <p>Thank you, Chicago - A night we won't forget.</p>
+                                <h3>Whip Stitch tota bag</h3>
+                                <p>Appropriate for the office, but also for a fun day out with the girls.</p>
                             </div>
                         </div>
                     </div>

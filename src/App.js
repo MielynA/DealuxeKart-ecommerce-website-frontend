@@ -4,6 +4,7 @@ import { BrowserRouter , Route} from 'react-router-dom';
 
 //import CoverPage from './components/coverpage/coverPage';
 import Navbar from './components/navbar';
+import Footer from './components/footer';
 import Home from './containers/home/home';
 
 class App extends Component {
@@ -15,9 +16,10 @@ class App extends Component {
       <>
        {/* <CoverPage exact path ='/Welcome' component={CoverPage}/> */}
        <Route path='/' component={Navbar} />
+       
        <Route path='/' exact component={Home} />
 
-
+       <Route path='/' component={Footer} />
 
        </>
        </BrowserRouter>

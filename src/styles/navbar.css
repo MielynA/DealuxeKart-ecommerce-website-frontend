@@ -1,7 +1,7 @@
 /* Add a dark background color with a little bit see-through */ 
 .navbar {
     margin-bottom: 0;
-    background-color: #ecb372;
+    background-color: #858282;
     border: 0;
     font-size: 11px !important;
     letter-spacing: 4px;
@@ -21,7 +21,7 @@
   /* The active link */
   .navbar-nav li.active a {
     color: #fff !important;
-    background-color:#e48315 !important;
+    background-color:#858282 !important;
   }
   
   /* Remove border color from the collapsible button */
@@ -32,7 +32,7 @@
   /* Dropdown */
   .open .dropdown-toggle {
     color: #fff ;
-    background-color: #e48315 !important;
+    background-color: #858282 !important;
   }
   
   /* Dropdown links */
