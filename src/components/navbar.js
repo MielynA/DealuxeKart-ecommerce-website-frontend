@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import '../styles/navbar.css';
 
@@ -12,9 +12,9 @@ const NavBar = props => {
                         <a className='nav-link dropdown-toggle' href='/' id='navbarDropdownMenuLink' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
                             SHOP BY CATEGORY </a>
                         <div className='dropdown-menu' aria-labelledby='navbarDropdownMenuLink'>
-                            <a className='dropdown-item' href='#'>MEN</a>
-                            <a className='dropdown-item' href='#'>WOMEN</a>
-                            <a className='dropdown-item' href='#'>VIEW ALL</a>
+                            <a className='dropdown-item' href='/'>MEN</a>
+                            <a className='dropdown-item' href='/'>WOMEN</a>
+                            <a className='dropdown-item' href='/'>VIEW ALL</a>
                         </div>
                     </li>
                     <a className='navbar-brand  ' href='/'>
@@ -25,18 +25,21 @@ const NavBar = props => {
                             <a className='nav-link' href='/'>Home <span className='sr-only'>(current)</span></a>
                         </li>
                         <li className='nav-item'>
-                            <a className='nav-link' href='#'>Buyer</a>
+                            <a className='nav-link' href='/'>Buyer</a>
                         </li>
                         <li className='nav-item'>
-                            <a className='nav-link' href='#'>Seller</a>
+                            <a className='nav-link' href='/signin'>Seller</a>
                         </li>
                         <li className='nav-item'>
-                            <a className='nav-link' href='#'>Orders</a>
+                            <a className='nav-link' href='/'>Orders</a>
                         </li>
                         
                         <button type="button" class="btn btn-default btn-lg">
                           <span class="glyphicon glyphicon-shopping-cart"></span></button>
                           
+                          <li className='nav-item'>
+                            <a className='nav-link' href='/logout'>Logout</a>
+                        </li>  
                     </ul>
                     
                 </div>

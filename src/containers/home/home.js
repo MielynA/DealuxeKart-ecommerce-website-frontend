@@ -30,7 +30,7 @@ class Home extends React.Component {
                             <img src={require('../../images/doublehandletote.jpg')} alt=''></img>
                             <div className='carousel-caption'>
                                 <h3>Tote</h3>
-                                <p>TAppropriate for the office, but also for a fun day out with the girls.</p>
+                                <p>Appropriate for the office, but also for a fun day out with the girls.</p>
                             </div>
                         </div>
 
